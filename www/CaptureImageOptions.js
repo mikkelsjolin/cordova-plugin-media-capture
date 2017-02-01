@@ -25,6 +25,10 @@
 var CaptureImageOptions = function(){
     // Upper limit of images user can take. Value must be equal or greater than 1.
     this.limit = 1;
+    // Image quality (0-100)
+    this.quality = 50;
+    // Save photos to album/camera roll
+    this.saveToPhotoAlbum = true;
 };
 
 module.exports = CaptureImageOptions;
